@@ -4,8 +4,9 @@ alias l='ls -CF'
 
 alias _="sudo"
 alias x="exit"
-alias xr="sudo reboot"
-alias xs="kill -9 -1"
+alias xr="echo -e '\e[1;31m Reiniciando el Sistema \e[0m'; sleep 1; sudo reboot;"
+alias xs="echo -e '\e[1;31m Cerrando sesion \e[0m'; sleep 1; kill -9 -1;"
+
 
 alias tempo="sudo find /tmp -type f -atime +10 -delete"
 alias clorf="sudo pacman -Qdtq | sudo pacman -Rns - | sudo pacman -Scc --noconfirm"
