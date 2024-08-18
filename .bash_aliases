@@ -1,7 +1,6 @@
-alias wallys='feh --bg-scale -z ~/Imágenes/Wallys'
-
-
 alias la='ls -A'
+alias ll='ls -lh'
+alias l='ls -CF'
 
 alias _="sudo"
 alias x="exit"
@@ -16,9 +15,6 @@ alias cclean="clear; echo -e '\e[1;31m  Limpiando memoria... \e[0m \n' && ccl
 
 alias grub-up="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
-alias offf="shutdown -h +180"
-alias onnn="shutdown -c"
+alias wallys='feh --bg-scale -z ~/Imágenes/Wallys'
 
 alias estereo="pactl load-module module-combine-sink"
-
-alias pendrive="sudo mount /dev/sdc1 /mnt/USBDRIVE/"
