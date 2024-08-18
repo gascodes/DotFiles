@@ -1,1 +1,26 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+## DESACTIVED
+## Set screen size more for own use in VB..
+#xrandr -s 1920x1080
+## Onscreen information
+#conky &
+## Battery/AC applet
+#cbatticon -n &
+## Set keyboard layout..
+#setxkbmap -layout "es" &
+## Session manager
+#lxsession &
 
+# ACTIVE
+# Apply background image..
+feh --bg-scale -z ~/Imágenes/Wallys
+# Volumen applet
+volumeicon &
+# Network applet
+nm-applet &
+# Start Panel
+tint2 &
+# ./.config/polybar/launch.sh --simple 
