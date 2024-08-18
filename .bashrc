@@ -127,27 +127,4 @@ fi
 echo $PATH | grep -Eq "(^|:)/sbin(:|)"     || PATH=$PATH:/sbin
 echo $PATH | grep -Eq "(^|:)/usr/sbin(:|)" || PATH=$PATH:/usr/sbin
 
-alias la='ls -A'
 
-alias _="sudo"
-alias x="exit"
-alias xr="sudo reboot"
-alias xs="kill -9 -1"
-
-alias tempo="sudo find /tmp -type f -atime +10 -delete"
-alias clorf="sudo pacman -Rs $(pacman -Qtdq)"
-alias ccl="clear; free -m && sync && sudo sysctl vm.drop_caches=3 && free -m && sudo find /tmp -type f -atime +10 -delete"
-alias cache="sudo du -sh ~/.cache/ && rm -rf ~/.cache/* && sudo du -sh ~/.cache/"
-alias cclean="ccl && cache && tempo"
-
-alias grub-up="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-
-alias offf="shutdown -h +180"
-alias onnn="shutdown -c"
-
-
-alias estereo="pactl load-module module-combine-sink"
-
-alias pendrive="sudo mount /dev/sdc1 /mnt/USBDRIVE/"
-
-#neofetch
