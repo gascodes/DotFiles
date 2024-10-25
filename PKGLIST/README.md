@@ -3,12 +3,12 @@ List of packages starting with a clean installation of ARCH, both for official a
 
 <b>Help</b> 
 Install official packages <br>
-<code> sudo pacman -S --needed -< pkglist-noaur.txt</code>
+<code> sudo pacman -S --needed -< pkglist-noaur.txt</code><br>
 Install AUR packages<br>
 <code> sudo pacman -S -< pkglist-aur.txt</code><br>
 
 Install official packages<br>
-<code> sudo pacman -S --needed -< pkglist-noaur.txt</code>
+<code> sudo pacman -S --needed -< pkglist-noaur.txt</code><br>
 Install AUR packages<br>
 <code> sudo pacman -S -< pkglist-aur.txt</code>
 
