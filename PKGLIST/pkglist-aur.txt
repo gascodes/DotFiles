@@ -69,6 +69,7 @@ ldns
 less
 lftp
 libfido2
+librewolf-bin
 libusb-compat
 linux
 linux-atm
