@@ -6,8 +6,7 @@ alias _="sudo"
 alias x="exit"
 alias xr="echo -e '\e[1;31m Reiniciando el Sistema \e[0m'; sleep 1; sudo reboot;"
 alias xs="echo -e '\e[1;31m Cerrando sesion \e[0m'; sleep 1; kill -9 -1;"
-
-
+alias bashrc="echo -e '\e[1;33m Reiniciando bash...\e[0m \n' && source .bashrc"
 
 alias grub-up="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
