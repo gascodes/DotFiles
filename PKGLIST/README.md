@@ -16,7 +16,7 @@ Back both types of packages<br>
 <code>sudo pacman -Qqe > pkglist-aur.txt && sudo pacman -Qqe -n > pkglist-noaur.txt</code>
 <br>
 Install packages match in the list and remove all the packages that are not mentioned <br>
-<code> sudo pacman -Rsu $(comm -23 <(pacman -Qq | sort) <(sort pkglist.txt))</code>
+<code>sudo pacman -Rsu $(comm -23 <(pacman -Qq | sort) <(sort pkglist.txt))</code>
 
-<p> </p>
+<p> <br></p>
  VP!
