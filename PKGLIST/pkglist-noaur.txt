@@ -20,7 +20,6 @@ btrfs-progs
 chromium
 clonezilla
 cloud-init
-cosmic-icon-theme
 cryptsetup
 darkhttpd
 ddrescue
@@ -47,7 +46,6 @@ foot-terminfo
 fsarchiver
 geany
 git
-gnu-netcat
 gpart
 gpm
 gptfdisk
@@ -117,6 +115,7 @@ partclone
 parted
 partimage
 pasystray
+pavucontrol
 pcsclite
 pulseaudio
 pulseaudio-alsa
@@ -178,4 +177,3 @@ xl2tpd
 xorg-server
 xorg-xauth
 zip
-zsh
