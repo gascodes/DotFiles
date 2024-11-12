@@ -14,6 +14,8 @@ Install AUR packages<br>
 <br>
 Back both types of packages<br>
 <code>sudo pacman -Qqe > pkglist-aur.txt && sudo pacman -Qqe -n > pkglist-noaur.txt</code>
+<br>
+Install packages match in the list and remove all the packages that are not mentioned
+<code> sudo pacman -Rsu $(comm -23 <(pacman -Qq | sort) <(sort pkglist.txt))</code>
 
-
-
+ VP!
