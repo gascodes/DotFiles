@@ -10,6 +10,8 @@ alias xs="kill -9 -1"
 alias xx="systemctl --poweroff"
 alias bashrc="source .bashrc"
 
+alias deezer ="rip --quality 3 url " 
+
 # Alias de Mantenimiento #
 alias tempo="sudo find /tmp -type f -atime +10 -delete"
 alias clorf="sudo pacman -Qdtq | sudo pacman -Rns -"
