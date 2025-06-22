@@ -10,6 +10,7 @@ alias xs="kill -9 -1"
 alias xx="systemctl --poweroff"
 alias bashrc="source .bashrc"
 
+@ Alias Streamreaper
 alias deezer ="rip --quality 3 url " 
 
 # Alias de Mantenimiento #
