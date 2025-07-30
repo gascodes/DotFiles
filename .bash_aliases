@@ -10,8 +10,8 @@ alias xs="kill -9 -1"
 alias xx="systemctl --poweroff"
 alias bashrc="source .bashrc"
 
-@ Alias Streamreaper
-alias deezer ="rip --quality 3 url " 
+#Alias Streamreaper
+#alias deezer="rip --quality 3 url " 
 
 # Alias de Mantenimiento #
 alias tempo="sudo find /tmp -type f -atime +10 -delete"
@@ -29,5 +29,5 @@ alias onnn="shutdown -c"
 
 alias ssaver-off="xset -dpms s off"
 
-æ Alias Fondo Pantallas
+#Alias Fondo Pantallas
 alias wallys="feh --bg-fill --randomize ~/Imágenes/Wallys/*.*"
