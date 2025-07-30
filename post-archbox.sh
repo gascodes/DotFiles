@@ -1,1 +1,5 @@
+#
+# ~/.bashrc
+#
+
 sudo pacman -Syyu xorg xorg-server openbox tint2 thunar thunar-volman thunar-archive-plugin xdg-user-dirs ly gparted xarchiver 7zip unzip unrar lxterminal lxsession geany mousepad chromium mpv x264  x265 base-devel feh pulseaudio pulseaudio-alsa pavucontrol pasystray networkmanager network-manager-applet ttf-fira-sans ttf-ms-fonts ttf-dejavu ttf-liberation ttf-font-awesome archlinux-xdg-menu samba smbclient lxappearance-obconf bash-completion xorg-xauth dracula-icons-git dracula-grub-theme-git numix-circle-icon-theme yay git wget curl ttf-dejavu-nerd ttf-droid ttf-fira-code ttf-firacode-nerd ttf-fira-sans ttf-fira-mono ttf-font-awesome-4 ttf-twemoji ttf-terminus-nerd gtk3 gtk4 gtk-engines gtk-engine-murrine gvfs gvfs-mtp adwaita-icon-theme vimix-gtk-themes catppuccin-gtk-theme-macchiato ublock-origin mpv transmission-gtk video-downloader zip blueman  --noconfirm
