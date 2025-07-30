@@ -13,14 +13,15 @@
 #setxkbmap -layout "es" &
 ## Session manager
 #lxsession &
+# Volumen applet
+# volumeicon &
 
 # ACTIVE
 # Apply background image..
-feh --bg-scale -z ~/Imágenes/Wallys
-# Volumen applet
-volumeicon &
+feh --bg-scale -z ~/Imágenes/Wallys/*.*
 # Network applet
 nm-applet &
 # Start Panel
 tint2 &
-# ./.config/polybar/launch.sh --simple 
+pasystray &
+lxpolkit
