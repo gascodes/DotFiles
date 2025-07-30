@@ -5,12 +5,13 @@
 <menu id="root-menu" label="Openbox 3">
 <item label="  Terminal">
    <action name="Execute">
-      <command>exo-open --launch TerminalEmulator</command>
+      # <command>exo-open --launch TerminalEmulator</command>
+	<command>lxterminal</command>
    </action>
 </item>
 <item label=" Navegador">
    <action name="Execute">
-      <command>firefox</command>
+      <command>chromium</command>
    </action>
 </item>
 <item label="  Explorar">
@@ -42,9 +43,9 @@
 <separator />
 
 <menu id="settings_menu" label="   Ajustes">
-  <item label="Openbox">
+  <item label="Temas">
     <action name="Execute">
-      <command>obconf</command>
+      <command>themechanger</command>
     </action>
   </item>
  <item label="Apariencia">
