@@ -1,0 +1,20 @@
+
+
+#SERVIVIDOR PARA win32 EN PACMAN.CONF
+[archlinuxcn]
+SigLevel = Optional TrustAll
+Server = https://repo.archlinuxcn.org/$arch
+
+sudo pacman -S desktop-file-utils lib32-fontconfig 
+sudo pacman -S lib32-gcc-libs lib32-gettext lib32-libcap lib32-libunwind lib32-libxcursor lib32-libxkbcommon lib32-libxi lib32-libxrandr lib32-wayland lib32-alsa-lib
+sudo pacman -S lib32-vulkan-icd-loader  lib32-v4l-utils vulkan-headers unixodbc libgphoto2  opencl-headers
+
+
+export WINEPREFIX=$HOME/.wine_war3
+WINEARCH=win32 WINEPREFIX=~/.wine_war3 WINEDEBUG=-all winecfg
+WINEPREFIX=~/.wine_war3 winetricks vcrun6 vcrun2005 vcrun2008 vcrun2010 d3dx9_35 d3dx9 corefonts dotnet40 dotnet20
+
+WINEPREFIX=~/.wine_war3 wine /mnt/warcraft/setup.exe 
+
+sudo mkdir /mnt/war /mnt/aoe /mnt/diablo/
+sudo mount -o loop war3.iso /mnt/war/
