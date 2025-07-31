@@ -5,9 +5,7 @@
 SigLevel = Optional TrustAll
 Server = https://repo.archlinuxcn.org/$arch
 
-sudo pacman -S desktop-file-utils lib32-fontconfig 
-sudo pacman -S lib32-gcc-libs lib32-gettext lib32-libcap lib32-libunwind lib32-libxcursor lib32-libxkbcommon lib32-libxi lib32-libxrandr lib32-wayland lib32-alsa-lib
-sudo pacman -S lib32-vulkan-icd-loader  lib32-v4l-utils vulkan-headers unixodbc libgphoto2  opencl-headers
+sudo pacman -S desktop-file-utils lib32-fontconfig lib32-gcc-libs lib32-gettext lib32-libcap lib32-libunwind lib32-libxcursor lib32-libxkbcommon lib32-libxi lib32-libxrandr lib32-wayland lib32-alsa-lib lib32-vulkan-icd-loader lib32-v4l-utils vulkan-headers unixodbc libgphoto2 opencl-headers --noconfirm
 
 
 export WINEPREFIX=$HOME/.wine_war3
