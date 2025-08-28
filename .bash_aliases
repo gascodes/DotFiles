@@ -1,33 +1,32 @@
-# Editado 22 jun 25
 
-# Alias de Terminal
+# Alias definitions.
+
 alias la='ls -A'
-alias ll='ls -l'
+
 alias _="sudo"
 alias x="exit"
 alias xr="sudo reboot"
 alias xs="kill -9 -1"
-alias xx="systemctl --poweroff"
+
 alias bashrc="source .bashrc"
 
-#Alias Streamreaper
-#alias deezer="rip --quality 3 url " 
-
-# Alias de Mantenimiento #
 alias tempo="sudo find /tmp -type f -atime +10 -delete"
 alias clorf="sudo pacman -Qdtq | sudo pacman -Rns -"
-alias ccl="clear; free -m && sync && sudo sysctl vm.drop_caches=3 && free -m && sudo find /tmp -type f -atime +10 -delete"
+alias ccl="clear; echo -e '\e[1;28m  Antes... \e[0m \n'; free -m && sync && sudo sysctl vm.drop_caches=3 && echo -e '\e[1;28m  Ahora... \e[0m \n ' &&  free -m && sudo find /tmp -type f -atime +10 -delete"
 alias cache="sudo du -sh ~/.cache/ && rm -rf ~/.cache/* && sudo du -sh ~/.cache/"
 
-alias cclean="clear; echo -e '\e[1;31m  Limpiando memoria... \e[0m \n' && ccl; echo -e '\n \e[1;37m  Limpiando cache... \e[0m \n' && cache && tempo; echo -e '\n \e[1;34m  Limpiando paquetes... \e[0m \n' && clorf"
-#  # Alias Grub
+alias cclean="clear; sudo pacman -Scc --noconfirm; echo -e '\e[1;28m  Limpiando memoria... \e[0m \n' && ccl; echo -e '\n \e[1;28m  Limpiando cache... \e[0m \n' && cache && tempo; echo -e '\n \e[1;28m  Limpiando paquetes... \e[0m \n' && clorf"
+  
+
+
+
+
 alias grub-up="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
-#Alias convertir webp en jpg
-alias webp2jpg='for img in *.webp; do magick "$img" "${img%.webp}.jpg"; done'
+alias offf="shutdown -h +180"
+alias onnn="shutdown -c"
 
-#Alias apagar screensaver
-alias ssaver-off="xset -dpms s off"
-
-#Alias Fondo Pantallas
 alias wallys="feh --bg-fill --randomize ~/Imágenes/Wallys/*.*"
+
+
+alias ssaver-off="xset -dpms s off"
