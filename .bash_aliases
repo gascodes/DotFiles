@@ -23,10 +23,10 @@ alias cclean="clear; echo -e '\e[1;31m  Limpiando memoria... \e[0m \n' && ccl
 #  # Alias Grub
 alias grub-up="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
-# Alias temporizadores 
-alias offf="shutdown -h +180"
-alias onnn="shutdown -c"
+#Alias convertir webp en jpg
+alias webp2jpg='for img in *.webp; do magick "$img" "${img%.webp}.jpg"; done'
 
+#Alias apagar screensaver
 alias ssaver-off="xset -dpms s off"
 
 #Alias Fondo Pantallas
