@@ -21,6 +21,3 @@ if [ -f ~/.bash_prompts ]; then
     source ~/.bash_prompts
 fi
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_timer
-fi
